@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "b1.7.3 BetaTweaks v1.2.2 CLIENT",
+            "MMC-filename": "2327726a-4cbb-4dfc-9a33-b5ab55f51c3f.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:2327726a-4cbb-4dfc-9a33-b5ab55f51c3f:1"
+        }
+    ],
+    "name": "b1.7.3 BetaTweaks v1.2.2 CLIENT (jar mod)",
+    "uid": "custom.jarmod.2327726a-4cbb-4dfc-9a33-b5ab55f51c3f"
+}

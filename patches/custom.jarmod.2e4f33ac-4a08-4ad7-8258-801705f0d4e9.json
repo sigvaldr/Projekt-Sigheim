@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "ItemSpriteAPIv1.2",
+            "MMC-filename": "2e4f33ac-4a08-4ad7-8258-801705f0d4e9.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:2e4f33ac-4a08-4ad7-8258-801705f0d4e9:1"
+        }
+    ],
+    "name": "ItemSpriteAPIv1.2 (jar mod)",
+    "uid": "custom.jarmod.2e4f33ac-4a08-4ad7-8258-801705f0d4e9"
+}

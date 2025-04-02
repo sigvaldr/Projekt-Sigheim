@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "AudioMod B1.7.3",
+            "MMC-filename": "edc069ae-3997-4fa8-b9ef-a84c1fe339f2.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:edc069ae-3997-4fa8-b9ef-a84c1fe339f2:1"
+        }
+    ],
+    "name": "AudioMod B1.7.3 (jar mod)",
+    "uid": "custom.jarmod.edc069ae-3997-4fa8-b9ef-a84c1fe339f2"
+}

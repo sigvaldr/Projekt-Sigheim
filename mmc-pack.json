@@ -1,0 +1,86 @@
+{
+    "components": [
+        {
+            "cachedName": "LWJGL 2",
+            "cachedVersion": "2.9.4-nightly-20150209",
+            "cachedVolatile": true,
+            "dependencyOnly": true,
+            "uid": "org.lwjgl",
+            "version": "2.9.4-nightly-20150209"
+        },
+        {
+            "cachedName": "Minecraft",
+            "cachedRequires": [
+                {
+                    "suggests": "2.9.4-nightly-20150209",
+                    "uid": "org.lwjgl"
+                }
+            ],
+            "cachedVersion": "b1.7.3",
+            "important": true,
+            "uid": "net.minecraft",
+            "version": "b1.7.3"
+        },
+        {
+            "cachedName": "minecraftforge-client-1.0.7-20110907 (jar mod)",
+            "uid": "custom.jarmod.154e23c4-860d-4883-afa3-33dba8ae7519"
+        },
+        {
+            "cachedName": "ModLoader B1.7.3 (jar mod)",
+            "uid": "custom.jarmod.7f1a7318-0cea-4808-a8e2-1808deee2222"
+        },
+        {
+            "cachedName": "ModLoaderMp 1.7.3 Unofficial v2 (jar mod)",
+            "uid": "custom.jarmod.88508303-7ef3-4998-998e-1b25627699df"
+        },
+        {
+            "cachedName": "AudioMod B1.7.3 (jar mod)",
+            "uid": "custom.jarmod.edc069ae-3997-4fa8-b9ef-a84c1fe339f2"
+        },
+        {
+            "cachedName": "ModOptionsAPI-v0.7 (jar mod)",
+            "uid": "custom.jarmod.e5917f3c-0195-43fd-84e3-c8a7eb5f721f"
+        },
+        {
+            "cachedName": "GuiAPI0.11.0-1.7 (jar mod)",
+            "uid": "custom.jarmod.c365ac26-28f6-46e0-b337-de38c1cade7f"
+        },
+        {
+            "cachedName": "ItemSpriteAPIv1.2 (jar mod)",
+            "uid": "custom.jarmod.2e4f33ac-4a08-4ad7-8258-801705f0d4e9"
+        },
+        {
+            "cachedName": "PlayerAPI 1.7.3 v1.7 (jar mod)",
+            "uid": "custom.jarmod.36c03ece-c7fa-4623-83a7-73870bc48db0"
+        },
+        {
+            "cachedName": "b1.7.3 HowManyItems v4.2.0 (jar mod)",
+            "uid": "custom.jarmod.a7522fa5-1a1c-45a7-a56f-c05ce09df13b"
+        },
+        {
+            "cachedName": "[1.7.3]ReiMinimap_v1.8 (jar mod)",
+            "uid": "custom.jarmod.efc70e1d-05d3-429a-9e7f-f103d90597c8"
+        },
+        {
+            "cachedName": "b1.7.3 BetaTweaks v1.2.2 CLIENT (jar mod)",
+            "uid": "custom.jarmod.2327726a-4cbb-4dfc-9a33-b5ab55f51c3f"
+        },
+        {
+            "cachedName": "InvTweaks-1.31-B1.7.3 (jar mod)",
+            "uid": "custom.jarmod.db0a8537-8bb2-4cd7-9473-7481383cb38f"
+        },
+        {
+            "cachedName": "SinglePlayerCommands-MC1.7.3v2.11.1 (jar mod)",
+            "uid": "custom.jarmod.89be2202-cb57-434b-ab84-c0f6cb123805"
+        },
+        {
+            "cachedName": "BitDepthFix-JarMod (jar mod)",
+            "uid": "custom.jarmod.89384bf3-a3e3-4ef4-84ec-9469222acb41"
+        },
+        {
+            "cachedName": "RenderStutterFix-JarMod (jar mod)",
+            "uid": "custom.jarmod.3c05f73e-e26b-4c02-a35f-b6d5c793cfa5"
+        }
+    ],
+    "formatVersion": 1
+}

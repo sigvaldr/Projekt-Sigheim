@@ -1,0 +1,10 @@
+Menu Key: M
+Toggle Enable: None
+Toggle Zoom: Z
+Toggle Large Map: X
+Toggle Waypoints: None
+Toggle Cave Map: None
+Toggle Entities Radar: None
+Set Waypoint: Period
+Zoom In: None
+Zoom Out: None

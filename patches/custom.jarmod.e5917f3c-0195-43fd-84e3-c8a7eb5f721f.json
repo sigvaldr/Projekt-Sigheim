@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "ModOptionsAPI-v0.7",
+            "MMC-filename": "e5917f3c-0195-43fd-84e3-c8a7eb5f721f.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:e5917f3c-0195-43fd-84e3-c8a7eb5f721f:1"
+        }
+    ],
+    "name": "ModOptionsAPI-v0.7 (jar mod)",
+    "uid": "custom.jarmod.e5917f3c-0195-43fd-84e3-c8a7eb5f721f"
+}

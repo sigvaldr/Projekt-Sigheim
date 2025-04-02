@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "PlayerAPI 1.7.3 v1.7",
+            "MMC-filename": "36c03ece-c7fa-4623-83a7-73870bc48db0.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:36c03ece-c7fa-4623-83a7-73870bc48db0:1"
+        }
+    ],
+    "name": "PlayerAPI 1.7.3 v1.7 (jar mod)",
+    "uid": "custom.jarmod.36c03ece-c7fa-4623-83a7-73870bc48db0"
+}

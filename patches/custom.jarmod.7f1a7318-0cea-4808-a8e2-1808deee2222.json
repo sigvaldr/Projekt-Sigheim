@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "ModLoader B1.7.3",
+            "MMC-filename": "7f1a7318-0cea-4808-a8e2-1808deee2222.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:7f1a7318-0cea-4808-a8e2-1808deee2222:1"
+        }
+    ],
+    "name": "ModLoader B1.7.3 (jar mod)",
+    "uid": "custom.jarmod.7f1a7318-0cea-4808-a8e2-1808deee2222"
+}

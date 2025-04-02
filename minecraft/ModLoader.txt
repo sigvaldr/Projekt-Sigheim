@@ -1,0 +1,58 @@
+Apr 02, 2025 2:58:47 AM ModLoader init
+FINE: ModLoader Beta 1.7.3 Initializing...
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Adding mods from C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim Carbon\minecraft\mods\CraftPresence-2.5.4+b1.7.3-modloader.jar
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Zip found.
+Apr 02, 2025 2:58:47 AM ModLoader addMod
+FINE: Mod Loaded: "mod_CraftPresence v2.5.4" from mod_CraftPresence.class
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Adding mods from C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim Carbon\minecraft\mods\rei_minimap
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Directory found.
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Adding mods from C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim Carbon\minecraft\mods\sppcommands
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Directory found.
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Adding mods from C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim Carbon\minecraft\mods\UniLib-1.0.4+b1.7.3-modloader.jar
+Apr 02, 2025 2:58:47 AM ModLoader readFromModFolder
+FINER: Zip found.
+Apr 02, 2025 2:58:47 AM ModLoader addMod
+FINE: Mod Loaded: "mod_UniLib v1.0.4" from mod_UniLib.class
+Apr 02, 2025 2:58:47 AM ModLoader readFromClassPath
+FINER: Adding mods from C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim Carbon\minecraft\bin\minecraft.jar
+Apr 02, 2025 2:58:47 AM ModLoader readFromClassPath
+FINER: Zip found.
+Apr 02, 2025 2:58:47 AM ModLoader addMod
+FINE: Mod Loaded: "mod_InvTweaks 1.30 (1.7.3)" from mod_InvTweaks.class
+Apr 02, 2025 2:58:47 AM ModLoader addOverride
+FINER: addOverride(/terrain.png,/betatweaks/resources/steelSide.png,30). 82 left.
+Apr 02, 2025 2:58:47 AM ModLoader addOverride
+FINER: addOverride(/terrain.png,/betatweaks/resources/steelBottom.png,54). 81 left.
+Apr 02, 2025 2:58:47 AM ModLoader addOverride
+FINER: addOverride(/terrain.png,/betatweaks/resources/goldSide.png,76). 80 left.
+Apr 02, 2025 2:58:47 AM ModLoader addOverride
+FINER: addOverride(/terrain.png,/betatweaks/resources/goldBottom.png,77). 79 left.
+Apr 02, 2025 2:58:47 AM ModLoader addOverride
+FINER: addOverride(/terrain.png,/betatweaks/resources/diamondSide.png,78). 78 left.
+Apr 02, 2025 2:58:47 AM ModLoader addOverride
+FINER: addOverride(/terrain.png,/betatweaks/resources/diamondBottom.png,85). 77 left.
+Apr 02, 2025 2:58:47 AM ModLoader addMod
+FINE: Mod Loaded: "mod_BetaTweaks v1.2.2" from mod_BetaTweaks.class
+Apr 02, 2025 2:58:47 AM ModLoader addMod
+FINE: Mod Loaded: "mod_ReiMinimap v1.8 [Beta 1.7.3]" from mod_ReiMinimap.class
+Apr 02, 2025 2:58:47 AM ModLoader addMod
+FINE: Mod Loaded: "mod_HowManyItems v4.2.0" from mod_HowManyItems.class
+Apr 02, 2025 2:58:47 AM ModLoaderMp Log
+FINE: ModLoaderMP Beta 1.7.3 unofficial Initialized
+Apr 02, 2025 2:58:47 AM ModLoader AddAllRenderers
+FINE: Initialized
+Apr 02, 2025 2:58:47 AM com.gitlab.cdagaming.unilib.core.integrations.logging.LegacyLogger info
+INFO: unilib: Starting version check for "craftpresence" (MC b1.7.3) at "https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/CraftPresence/update.json"
+Apr 02, 2025 2:58:47 AM com.gitlab.cdagaming.unilib.core.integrations.logging.LegacyLogger info
+INFO: unilib: Starting version check for "unilib" (MC b1.7.3) at "https://raw.githubusercontent.com/CDAGaming/VersionLibrary/master/UniLib/update.json"
+Apr 02, 2025 2:58:48 AM com.gitlab.cdagaming.unilib.core.integrations.logging.LegacyLogger info
+INFO: unilib: Received update status for "unilib" -> Outdated (Target version: "v1.0.5")
+Apr 02, 2025 2:58:48 AM com.gitlab.cdagaming.unilib.core.integrations.logging.LegacyLogger info
+INFO: unilib: Received update status for "craftpresence" -> Release (Target version: "")

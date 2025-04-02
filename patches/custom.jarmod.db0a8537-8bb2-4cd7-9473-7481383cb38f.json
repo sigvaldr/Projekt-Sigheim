@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "InvTweaks-1.31-B1.7.3",
+            "MMC-filename": "db0a8537-8bb2-4cd7-9473-7481383cb38f.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:db0a8537-8bb2-4cd7-9473-7481383cb38f:1"
+        }
+    ],
+    "name": "InvTweaks-1.31-B1.7.3 (jar mod)",
+    "uid": "custom.jarmod.db0a8537-8bb2-4cd7-9473-7481383cb38f"
+}

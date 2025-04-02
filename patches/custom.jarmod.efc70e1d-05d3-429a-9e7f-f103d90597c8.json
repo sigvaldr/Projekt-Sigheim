@@ -1,0 +1,13 @@
+{
+    "formatVersion": 1,
+    "jarMods": [
+        {
+            "MMC-displayname": "[1.7.3]ReiMinimap_v1.8",
+            "MMC-filename": "efc70e1d-05d3-429a-9e7f-f103d90597c8.jar",
+            "MMC-hint": "local",
+            "name": "custom.jarmods:efc70e1d-05d3-429a-9e7f-f103d90597c8:1"
+        }
+    ],
+    "name": "[1.7.3]ReiMinimap_v1.8 (jar mod)",
+    "uid": "custom.jarmod.efc70e1d-05d3-429a-9e7f-f103d90597c8"
+}
