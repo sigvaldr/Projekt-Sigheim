@@ -4,7 +4,7 @@ designed to invoke a feeling of home and ease. It is, in other words, a Quality-
 filled with mods to help you and make your game run better, no matter which version you're on, we have plenty!
 
 ## Carbon variant - Beta 1.7.3
-
+Carbon v1.0
 Mods:
 - Better Than Adventure v[7.2]
 - Babric v[b1.7.3]
