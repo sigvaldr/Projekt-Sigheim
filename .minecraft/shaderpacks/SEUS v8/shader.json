@@ -1,0 +1,35 @@
+{
+	"shadow": {
+		"enable": true,
+		"resolution": 3072,
+		"distance": 64.0,
+		"shader": "shadow"
+	},
+	"world": {
+		"basic": "gbuffers_basic",
+		"textured": "gbuffers_textured",
+		"skybasic": "gbuffers_skybasic",
+		"skytextured": "gbuffers_skytextured",
+		"terrain": "gbuffers_terrain",
+		"translucent": "gbuffers_water",
+		"entities": "gbuffers_textured",
+		"clouds": "gbuffers_clouds",
+		"hand": "gbuffers_hand",
+		"out": [0, 1]
+	},
+	"post": {
+		"render": {
+			"composite": {
+				"in": [0, 1],
+				"out": [2, 3]
+			},
+			"composite1": {
+				"in": [2, 3],
+				"out": [0]
+			},
+			"final": {
+				"in": [0, 3]
+			}
+		}
+	}
+}

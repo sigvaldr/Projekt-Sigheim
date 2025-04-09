@@ -1,0 +1,16 @@
+filename = 'better_ai-4.0.0-7.2.jar'
+name = 'BetterAI BTA'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '43240d4a7db8421c03be6da2ba3d2812bd278b6beddab9c01e9ad9ef79fa3b860d086eb6b156b545a147dd948d5386f49b4705785db76ec0cb0a371fcae576d3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gsp0euD6/versions/RSbj6HND/better_ai-4.0.0-7.2.jar'
+
+[update.modrinth]
+mod-id = 'gsp0euD6'
+version = 'RSbj6HND'

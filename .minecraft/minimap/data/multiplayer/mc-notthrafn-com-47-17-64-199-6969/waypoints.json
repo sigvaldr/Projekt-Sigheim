@@ -1,0 +1,5 @@
+{
+	"waypoints": [
+		{ "name": "WorldSpawn", "x": -80, "y": 130, "z": 101, "color": "ffffff", "visible": true, "dimension": "0" }
+	]
+}

@@ -1,0 +1,16 @@
+filename = 'terrainapi-1.4.4-7.2-pre1.jar'
+name = 'TerrainAPI'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '33084f4d40d3feae1784a36a3888d10d99874a5509531cafb664147886f04a2c73487009b2aabffe4338c4a26b71547ea981ea6098dc4369c9ff2a65623bfaa4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t5UKwvaa/versions/v3loXTka/terrainapi-1.4.4-7.2-pre1.jar'
+
+[update.modrinth]
+mod-id = 't5UKwvaa'
+version = 'v3loXTka'

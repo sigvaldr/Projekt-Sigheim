@@ -1,0 +1,16 @@
+filename = 'nofoodstack-1.0.0.jar'
+name = '🍎❌ No Food Stack'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a07b499d9eeb13f9a9f5df4faf200d019ce5ddb067bf721633cf214419cf4e757d0a017c246d7891e11c20d84b3b66db50ed4d1f818571990b02bc0eac42c441'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/u2iparDz/versions/zyZNfJHf/nofoodstack-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'u2iparDz'
+version = 'zyZNfJHf'

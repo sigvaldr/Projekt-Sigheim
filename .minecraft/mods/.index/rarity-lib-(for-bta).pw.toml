@@ -1,0 +1,16 @@
+filename = 'RarityLib-1.1.4-7.2.jar'
+name = 'Rarity Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ed33f2c2cd79ef455673790dcb70a0df381ea10cccb42002f75f0450f70ccae268246b83ad3060bdc1ec121e119b875b3854c7bb6d0692bcf6cad00edb91b86a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EFCSW4id/versions/TOx4afRm/RarityLib-1.1.4-7.2.jar'
+
+[update.modrinth]
+mod-id = 'EFCSW4id'
+version = 'TOx4afRm'

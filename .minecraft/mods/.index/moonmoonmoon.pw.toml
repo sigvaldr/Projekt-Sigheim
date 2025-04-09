@@ -1,0 +1,16 @@
+filename = 'moonsteel-1.0.8-7.2.jar'
+name = 'MoonMoonMoon'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9f061353a91c3c039c6486efec5ddae21a118c7b6311c18970d22aba3358078ba2bc825c5b3c8e87be57a9fcf59c6b00d23b6a8ebe387e5b96c03706f0ef8cb5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tQB3Y4ct/versions/dVYoHhpd/moonsteel-1.0.8-7.2.jar'
+
+[update.modrinth]
+mod-id = 'tQB3Y4ct'
+version = 'dVYoHhpd'

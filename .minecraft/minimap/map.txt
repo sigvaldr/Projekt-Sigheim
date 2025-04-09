@@ -1,0 +1,17 @@
+mapStyle:0
+width:16
+position:1
+shadeType:1
+lighting:true
+zoomLevel:0
+fullscreenMap:false
+fullscreenZoomLevel:1
+rotateMap:false
+rotateFrame:false
+roundMap:false
+frameOpacity:100
+showAllBlocks:false
+showWaypoints:true
+fullscreenType:0
+showWaypointLabels:true
+waypointLabelSize:1

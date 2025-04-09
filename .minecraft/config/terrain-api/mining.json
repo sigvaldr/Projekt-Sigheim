@@ -1,0 +1,47 @@
+{
+  "Ore Cluster Size": {
+    "tile.ore.nethercoal.netherrack": 30,
+    "tile.ore.lapis.stone": 30,
+    "tile.bonusblocks.ore.silver.stone": 30,
+    "tile.ore.coal.stone": 30,
+    "tile.ore.iron.stone": 30,
+    "tile.ore.gold.stone": 30,
+    "tile.ore.redstone.stone": 30,
+    "tile.bonusblocks.ore.copper.stone": 30,
+    "tile.ore.diamond.stone": 30
+  },
+  "Chances Per Chunk": {
+    "tile.ore.nethercoal.netherrack": 20,
+    "tile.ore.lapis.stone": 20,
+    "tile.bonusblocks.ore.silver.stone": 20,
+    "tile.ore.coal.stone": 20,
+    "tile.ore.iron.stone": 20,
+    "tile.ore.gold.stone": 20,
+    "tile.ore.redstone.stone": 20,
+    "tile.bonusblocks.ore.copper.stone": 20,
+    "tile.ore.diamond.stone": 20
+  },
+  "Vertical Starting Range": {
+    "tile.ore.nethercoal.netherrack": 0.0,
+    "tile.ore.lapis.stone": 0.0,
+    "tile.bonusblocks.ore.silver.stone": 0.0,
+    "tile.ore.coal.stone": 0.0,
+    "tile.ore.iron.stone": 0.0,
+    "tile.ore.gold.stone": 0.0,
+    "tile.ore.redstone.stone": 0.0,
+    "tile.bonusblocks.ore.copper.stone": 0.0,
+    "tile.ore.diamond.stone": 0.0
+  },
+  "Vertical Ending Range": {
+    "tile.ore.nethercoal.netherrack": 1.0,
+    "tile.ore.lapis.stone": 1.0,
+    "tile.bonusblocks.ore.silver.stone": 1.0,
+    "tile.ore.coal.stone": 1.0,
+    "tile.ore.iron.stone": 1.0,
+    "tile.ore.gold.stone": 1.0,
+    "tile.ore.redstone.stone": 1.0,
+    "tile.bonusblocks.ore.copper.stone": 1.0,
+    "tile.ore.diamond.stone": 1.0
+  },
+  "Override Default Values": false
+}

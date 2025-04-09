@@ -1,0 +1,16 @@
+filename = 'stardew-2.1.0-7.2.jar'
+name = 'Stardew Farming-BTA'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b1f40a1bd4172b814e65569bb23460840ec687ef79697dc318cf0aa36aa604f1076b33f5c0d87f04a598e3667d49b813cf4e62d4a5f41ec6b69d88634253ad0a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/oZ5Y7afj/versions/9XlhMQUn/stardew-2.1.0-7.2.jar'
+
+[update.modrinth]
+mod-id = 'oZ5Y7afj'
+version = '9XlhMQUn'

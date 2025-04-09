@@ -1,0 +1,35 @@
+{
+  "Ore Cluster Size": {
+    "tile.ore.nethercoal.netherrack": 12,
+    "tile.bonusblocks.soulslate": 32,
+    "tile.bonusblocks.cobble.netherrack": 24,
+    "tile.bonusblocks.netherrack": 48,
+    "tile.slate": 32,
+    "tile.bonusblocks.brimstone": 32
+  },
+  "Chances Per Chunk": {
+    "tile.ore.nethercoal.netherrack": 10,
+    "tile.bonusblocks.soulslate": 4,
+    "tile.bonusblocks.cobble.netherrack": 12,
+    "tile.bonusblocks.netherrack": 6,
+    "tile.slate": 4,
+    "tile.bonusblocks.brimstone": 2
+  },
+  "Vertical Starting Range": {
+    "tile.ore.nethercoal.netherrack": 0.0,
+    "tile.bonusblocks.soulslate": 0.0,
+    "tile.bonusblocks.cobble.netherrack": 0.0,
+    "tile.bonusblocks.netherrack": 0.0,
+    "tile.slate": 0.75,
+    "tile.bonusblocks.brimstone": 0.0
+  },
+  "Vertical Ending Range": {
+    "tile.ore.nethercoal.netherrack": 0.9375,
+    "tile.bonusblocks.soulslate": 0.5,
+    "tile.bonusblocks.cobble.netherrack": 1.0,
+    "tile.bonusblocks.netherrack": 1.0,
+    "tile.slate": 1.0,
+    "tile.bonusblocks.brimstone": 0.25
+  },
+  "Override Default Values": false
+}

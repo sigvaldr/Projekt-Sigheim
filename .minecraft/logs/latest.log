@@ -1,0 +1,167 @@
+[22:35:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 7.2 with Fabric Loader 0.15.6-babric.6-bta
+[22:35:04] [ForkJoinPool-1-worker-2/WARN] (FabricLoader/Metadata) Mod betterbattletowers uses the version 1.2.2_05 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '2_05'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:35:04] [ForkJoinPool-1-worker-16/WARN] (FabricLoader/Metadata) Mod simplehealthindicator uses the version 1.2.0-7.2_01-2 which isn't compatible with Loader's extended semantic version format (Invalid prerelease string '7.2_01-2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:35:04] [main/INFO] (FabricLoader) Loading 23 mods:
+	- better_ai 4.0.0-7.2
+	- better_with_aquatic 4.4.0-7.2
+	- betterbattletowers 1.2.2_05
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- bonusblocks 3.1.0-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- color 1.1.0
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- dragonfly 1.6.0-7.2-0.1
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- fabricloader 0.15.6-babric.6-bta+local
+	   \-- mixinextras 0.3.2
+	- halplibe 4.1.3
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- ironfurnaces 1.4.4
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- java 17
+	- minecraft 7.2
+	- minimap 1.5.0
+	- modmenu 2.0.6
+	- moonsteel 1.0.8-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- natrium 0.4
+	- nofoodstack 1.0.0
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- rarity_lib 1.1.4-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- simplehealthindicator 1.2.0-7.2_01-2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- stardew 2.1.0-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- terrain-api 1.4.4-7.2-pre1
+	- writingsheets 1.0.0
+	   \-- org_apache_commons_commons-lang3 3.12.0
+[22:35:04] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[22:35:04] [main/WARN] (FabricLoader/Mixin) Reference map 'nofoodstack-refmap.json' for nofoodstack.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:35:04] [main/INFO] (halplibe) Config file name: halplibe.cfg
+[22:35:04] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\halplibe.cfg
+[22:35:04] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Discarding @Unique public field item in stardew.mixins.json:EntityItemMixin from mod stardew because it already exists in net.minecraft.core.entity.EntityItem. Note that declared FIELD INITIALISERS will NOT be removed!
+[22:35:05] [main/INFO] (FabricLoader/Mixin) halplibe.mixins.json:accessors.BlockFireAccessor from mod halplibe->@Invoker[METHOD_PROXY]::callSetBurnRate(III)V should be static as its target is
+[22:35:05] [main/INFO] (halplibe) Config file name: {enable_swim=true, starting_item_id=26000, starting_entity_id=600, enable_drowned=true, starting_block_id=3200}
+[22:35:05] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\better_with_aquatic.cfg
+[22:35:05] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\better_with_aquatic.cfg
+[22:35:05] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\better_with_aquatic.cfg
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Discarding @Unique public method func_4042_a in stardew.mixins.json:EntityBobberMixin from mod stardew because it already exists in net.minecraft.core.entity.EntityBobber
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Mixin stardew.mixins.json:EntityBobberMixin from mod stardew has multiple constructors, (Lnet/minecraft/core/world/World;)V was selected
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Mixin stardew.mixins.json:EntityBobberMixin from mod stardew has multiple constructors, (Lnet/minecraft/core/world/World;)V was selected
+[22:35:05] [main/INFO] (FabricLoader/Mixin) dragonfly.mixins.json:accessor.RenderBlocksAccessor from mod dragonfly->@Accessor[FIELD_GETTER]::getSIDE_LIGHT_MULTIPLIER()[F should be static as its target is
+[22:35:06] [main/INFO] (better_ai) ExampleMod initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: {towercount=200, starting_item_id=26340, starting_entity_id=634, rarity=10, starting_block_id=6340}
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\betterbattletowers.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\betterbattletowers.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\betterbattletowers.cfg
+[22:35:06] [main/INFO] (betterbattletowers) Better than Battle Towers initialized.
+[22:35:06] [main/INFO] (bonusblocks) BonusBlocks initialized.
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle2.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle3.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle3.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle4.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle4.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrothurt1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrothurt1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrothurt2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrothurt2.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotdeath1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotdeath1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotdeath2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotdeath2.ogg Added to sound directory
+[22:35:06] [main/INFO] (color) World of Color initialized.
+[22:35:06] [main/INFO] (halplibe) HalpLibe initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: ironfurnaces.cfg
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\ironfurnaces.cfg
+[22:35:06] [main/INFO] (ironfurnaces) IronFurnaces mod initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: {starting_item_id=21400, star_spawn_rate=7500, looting_amount=3, starting_block_id=6700, fortune_amount=3, gui_backpack_id=20}
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\moonsteel.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\moonsteel.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\moonsteel.cfg
+[22:35:06] [main/INFO] (moonsteel) Backpacks present: false
+[22:35:06] [main/INFO] (moonsteel) MoonSteel initialized.
+[22:35:06] [main/INFO] (no-food-stack) [no-food-stack] Initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: {starting_item_id=11000, starting_block_id=10000}
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\rarity_lib.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\rarity_lib.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\rarity_lib.cfg
+[22:35:06] [main/INFO] (rarity_lib) Rarity lib initialized.
+[22:35:06] [main/INFO] (simplehealthindicator) Simple Health Indicator initialized.
+[22:35:06] [main/INFO] (halplibe) File source: /assets/stardew/sound/bee.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/stardew/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\stardew\bee.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/stardew/streaming/axolotl.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\streaming
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\streaming\axolotl.ogg Added to sound directory
+[22:35:06] [main/INFO] (stardew) Stardew Farming initialized.
+[22:35:06] [main/INFO] (terrain-api) TerrainMain initialized.
+[22:35:06] [main/INFO] (writingsheets) WritingSheetsMod initialized.
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golem1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golem1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golem3.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golem3.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemawaken.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemawaken.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemdeath.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemdeath.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemhurt2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemhurt2.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemhurt3.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemhurt3.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemspecial1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemspecial1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemspecial2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemspecial2.ogg Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet baguchan.better_with_aquatic.packet.SwimPacket with id 36
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketOpenGui with id 37
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketOpenItemGui with id 43
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketOpenBlockGui with id 44
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketGuiButtonClick with id 45
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_idle.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_idle.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_death.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_death.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_hurt.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_hurt.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_hurt_extra.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_hurt_extra.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/bonusblocks/sound/chimes.ogg
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/bonusblocks/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\bonusblocks\chimes.ogg Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/moonsteel/sound/starspawn.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/moonsteel/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\moonsteel\starspawn.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) Config file name: bonusblocks.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\bonusblocks.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file name: color.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\color.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file name: stardew.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\stardew.cfg
+[22:35:13] [Client-Main/INFO] (dragonfly) DragonFly initialized.
+[22:35:13] [Client-Main/WARN] (terrain-api) bonusblocks has changed block tile.moss.stone to generate 0 blocks with 0 chances and a range of 0.000000
+[22:35:35] [Client-Main/INFO] (halplibe) true

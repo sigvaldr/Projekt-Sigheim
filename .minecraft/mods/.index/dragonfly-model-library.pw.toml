@@ -1,0 +1,16 @@
+filename = 'dragonfly-1.6.0-7.2-0.1.jar'
+name = 'DragonFly Model Library'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8924740820495643c06a0fa70dac716465719b1bc904b3665df2469fa021ede345e7b2eabcd7a5ab162db7d4ab97b3ae0ff9b883cef8d6fee02b53f4a7facaf1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tMPSPoBa/versions/hJadNU4l/dragonfly-1.6.0-7.2-0.1.jar'
+
+[update.modrinth]
+mod-id = 'tMPSPoBa'
+version = 'hJadNU4l'

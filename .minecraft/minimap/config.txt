@@ -1,0 +1,13 @@
+mapVisible:true
+updateSpeed:1
+requireItem:0
+mask:true
+showTiles:false
+keyMap:49
+keyHideMap:0
+keyFullscreen:50
+keyZoomIn:78
+keyZoomOut:74
+keyWaypointList:51
+keyWaypointToggle:0
+keyWaypointCreate:52

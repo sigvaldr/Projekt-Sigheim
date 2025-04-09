@@ -1,0 +1,898 @@
+[22:35:04] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 7.2 with Fabric Loader 0.15.6-babric.6-bta
+[22:35:04] [main/DEBUG] (FabricLoader/GamePatch) Found game constructor: net.minecraft.client.Minecraft -> net/minecraft/client/Minecraft
+[22:35:04] [main/DEBUG] (FabricLoader/GamePatch) Patching game constructor <init>(Lnet/minecraft/client/render/window/GameWindow;)V
+[22:35:04] [main/DEBUG] (FabricLoader/GamePatch) Patched 1 class
+[22:35:04] [ForkJoinPool-1-worker-2/WARN] (FabricLoader/Metadata) Mod betterbattletowers uses the version 1.2.2_05 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '2_05'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:35:04] [ForkJoinPool-1-worker-16/WARN] (FabricLoader/Metadata) Mod simplehealthindicator uses the version 1.2.0-7.2_01-2 which isn't compatible with Loader's extended semantic version format (Invalid prerelease string '7.2_01-2'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:35:04] [main/DEBUG] (FabricLoader/Discovery) Mod discovery time: 26.1 ms
+[22:35:04] [main/DEBUG] (FabricLoader/Resolution) Mod resolution time: 23.7 ms
+[22:35:04] [main/INFO] (FabricLoader) Loading 23 mods:
+	- better_ai 4.0.0-7.2
+	- better_with_aquatic 4.4.0-7.2
+	- betterbattletowers 1.2.2_05
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- bonusblocks 3.1.0-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- color 1.1.0
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- dragonfly 1.6.0-7.2-0.1
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- fabricloader 0.15.6-babric.6-bta+local
+	   \-- mixinextras 0.3.2
+	- halplibe 4.1.3
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- ironfurnaces 1.4.4
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- java 17
+	- minecraft 7.2
+	- minimap 1.5.0
+	- modmenu 2.0.6
+	- moonsteel 1.0.8-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- natrium 0.4
+	- nofoodstack 1.0.0
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- rarity_lib 1.1.4-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- simplehealthindicator 1.2.0-7.2_01-2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- stardew 2.1.0-7.2
+	   \-- org_apache_commons_commons-lang3 3.12.0
+	- terrain-api 1.4.4-7.2-pre1
+	- writingsheets 1.0.0
+	   \-- org_apache_commons_commons-lang3 3.12.0
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\better_ai-4.0.0-7.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\better_with_aquatic-4.4.0-7.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\betterbattletowers-1.2.2_05.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\bonusblocks-3.1.0-7.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\color-1.1.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\dragonfly-1.6.0-7.2-0.1.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\halplibe-4.1.3.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\ironfurnaces-1.4.4.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\Minimap-v1.5.0-BTA7.2pre1.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\.fabric\processedMods\mixinextras-0.3.2-f9ae6eeeafe4ec19.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\modmenu-bta-2.0.6.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\moonsteel-1.0.8-7.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\Natrium-v0.4-BTA7.2pre2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\nofoodstack-1.0.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\.fabric\processedMods\org_apache_commons_commons-lang3-3.12.0-83f94356e945734.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\RarityLib-1.1.4-7.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\simplehealthindicator-1.2.0-7.2_01-2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\stardew-2.1.0-7.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\terrainapi-1.4.4-7.2-pre1.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\mods\writingsheets-1.0.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_ai.BetterAI for mod better_ai (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.BetterWithAquatic for mod better_with_aquatic (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.BetterWithAquatic for mod better_with_aquatic (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.TerrainAPIPlugin for mod better_with_aquatic (key terrain-api)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.BetterWithAquaticClient for mod better_with_aquatic (key beforeClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.crafting.ModCraftings for mod better_with_aquatic (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.BetterWithAquatic for mod better_with_aquatic (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer baguchan.better_with_aquatic.BetterWithAquaticClient for mod better_with_aquatic (key afterClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer jamdoggie.betterbattletowers.BetterBattleTowers for mod betterbattletowers (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer jamdoggie.betterbattletowers.BetterBattleTowers for mod betterbattletowers (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer jamdoggie.betterbattletowers.BetterBattleTowers for mod betterbattletowers (key beforeClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer jamdoggie.betterbattletowers.BetterBattleTowers for mod betterbattletowers (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer jamdoggie.betterbattletowers.BetterBattleTowers for mod betterbattletowers (key client)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer jamdoggie.betterbattletowers.BetterBattleTowers for mod betterbattletowers (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.bonusblocks.BonusBlocksMod for mod bonusblocks (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.bonusblocks.BonusBlocksMod for mod bonusblocks (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.bonusblocks.ModContainer.TerrainApi.TerrainApiPlugin for mod bonusblocks (key terrain-api)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.bonusblocks.BonusBlocksMod for mod bonusblocks (key beforeClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.bonusblocks.BonusRecipes for mod bonusblocks (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.bonusblocks.BonusBlocksMod for mod bonusblocks (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.color.ColorMod for mod color (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.color.ColorMod for mod color (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.color.ColorRecipes for mod color (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.color.ColorMod for mod color (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer org.useless.dragonfly.DragonFly for mod dragonfly (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer turniplabs.halplibe.HalpLibe for mod halplibe (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer turniplabs.halplibe.HalpLibe for mod halplibe (key preLaunch)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer fl205.ironfurnaces.IronFurnaces for mod ironfurnaces (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer fl205.ironfurnaces.IronFurnaces for mod ironfurnaces (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer fl205.ironfurnaces.IronFurnaces for mod ironfurnaces (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer fl205.ironfurnaces.IronFurnaces for mod ironfurnaces (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer fl205.ironfurnaces.modded.BTWaila.WailaPlugin for mod ironfurnaces (key btwaila)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.prospector.modmenu.impl.ModMenuApiImpl for mod modmenu (key modmenu)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer io.github.prospector.modmenu.ModMenu for mod modmenu (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.moonsteel.MoonSteel for mod moonsteel (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.moonsteel.MoonSteel for mod moonsteel (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.moonsteel.MoonSteel for mod moonsteel (key beforeClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.moonsteel.MoonSteel for mod moonsteel (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.moonsteel.MoonSteel for mod moonsteel (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer aurailus.nofoodstack.NoFoodStack for mod nofoodstack (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer aurailus.nofoodstack.NoFoodStack for mod nofoodstack (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer aurailus.nofoodstack.NoFoodStack for mod nofoodstack (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer aurailus.nofoodstack.NoFoodStack for mod nofoodstack (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer deus.rarity_lib.RarityLibMod for mod rarity_lib (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer deus.rarity_lib.RarityLibMod for mod rarity_lib (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer deus.rarity_lib.RarityLibMod for mod rarity_lib (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer deus.rarity_lib.RarityLibMod for mod rarity_lib (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer bigsir.simplehealthindicator.SHealthIndicator for mod simplehealthindicator (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer bigsir.simplehealthindicator.SHealthIndicator for mod simplehealthindicator (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer bigsir.simplehealthindicator.SHealthIndicator for mod simplehealthindicator (key beforeClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer bigsir.simplehealthindicator.SHealthIndicator for mod simplehealthindicator (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer bigsir.simplehealthindicator.SHealthIndicator for mod simplehealthindicator (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer bigsir.simplehealthindicator.SHealthIndicator for mod simplehealthindicator (key afterClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.stardew.StardewMod for mod stardew (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.stardew.StardewMod for mod stardew (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.stardew.TerrainApiPlugin for mod stardew (key terrain-api)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.stardew.StardewMod for mod stardew (key beforeClientStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.stardew.StardewRecipes for mod stardew (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer luke.stardew.StardewMod for mod stardew (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.terrainapi.TerrainMain for mod terrain-api (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.terrainapi.initialization.TerrainInitialization for mod terrain-api (key terrain-api)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer useless.terrainapi.TerrainMain for mod terrain-api (key main)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer solignomiki.writingsheets.WritingSheets for mod writingsheets (key beforeGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer solignomiki.writingsheets.WritingSheets for mod writingsheets (key afterGameStart)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer solignomiki.writingsheets.recipes.ModRecipes for mod writingsheets (key recipesReady)
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Registering new-style initializer solignomiki.writingsheets.WritingSheets for mod writingsheets (key main)
+[22:35:04] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Error cleaning class output directory: .mixin.out
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Initialising Mixin Platform Manager
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Adding mixin platform agents for container ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Instancing new MixinPlatformAgentDefault for ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) MixinPlatformAgentDefault accepted container ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)]
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleURI(file:///C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim-%20Carbon/libraries/fabric-loader-0.15.6-babric.6-bta.jar)]
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Mixin config minimap.mixins.json does not specify "minVersion" property
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Mixin config mixins.modmenu.json does not specify "minVersion" property
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Mixin config natrium.mixins.json does not specify "minVersion" property
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\bin\minecraft.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Local\Programs\PrismLauncher\jars\NewLaunchLegacy.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Local\Programs\PrismLauncher\jars\NewLaunch.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\commons-codec\commons-codec\1.15\commons-codec-1.15.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\net\fabricmc\tiny-mappings-parser\0.3.0+build.17\tiny-mappings-parser-0.3.0+build.17.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\net\fabricmc\mapping-io\0.5.0\mapping-io-0.5.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\net\fabricmc\tiny-remapper\0.10.0\tiny-remapper-0.10.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\net\fabricmc\access-widener\2.1.0\access-widener-2.1.0.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Knot) Adding C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\libraries\io\github\llamalad7\mixinextras-fabric\0.3.2\mixinextras-fabric-0.3.2.jar to classpath.
+[22:35:04] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'preLaunch'
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins for MixinEnvironment[DEFAULT]
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config better_ai.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config better_with_aquatic.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config betterbattletowers.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config bonusblocks.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config color.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config dragonfly.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config halplibe.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config minimap.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config mixinextras.init.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/MixinExtras|Service) com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2) is taking over from null
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config mixins.modmenu.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config moonsteel.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config natrium.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config nofoodstack.mixins.json
+[22:35:04] [main/WARN] (FabricLoader/Mixin) Reference map 'nofoodstack-refmap.json' for nofoodstack.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config rarity_lib.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config simplehealthindicator.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config stardew.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config terrainapi.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Selecting config writingsheets.mixins.json
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing better_ai.mixins.json (4)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing better_with_aquatic.mixins.json (13)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing betterbattletowers.mixins.json (3)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing bonusblocks.mixins.json (15)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing color.mixins.json (1)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing dragonfly.mixins.json (4)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing halplibe.mixins.json (38)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing minimap.mixins.json (0)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing mixinextras.init.mixins.json (0)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing mixins.modmenu.json (8)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing moonsteel.mixins.json (17)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing natrium.mixins.json (0)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing nofoodstack.mixins.json (0)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing rarity_lib.mixins.json (1)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing simplehealthindicator.mixins.json (4)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing stardew.mixins.json (16)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing terrainapi.mixins.json (7)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Preparing writingsheets.mixins.json (3)
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/Minecraft is public in minimap.mixins.json:Dummy from mod minimap and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/option/GameSettings is public in minimap.mixins.json:Dummy from mod minimap and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/render/RenderEngine is public in minimap.mixins.json:Dummy from mod minimap and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/render/RenderGlobal is public in minimap.mixins.json:Dummy from mod minimap and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/render/WorldRenderer is public in minimap.mixins.json:Dummy from mod minimap and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/Minecraft is public in natrium.mixins.json:Dummy from mod natrium and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/render/ChunkRenderer is public in natrium.mixins.json:Dummy from mod natrium and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/render/RenderGlobal is public in natrium.mixins.json:Dummy from mod natrium and should be specified in value
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) @Mixin target net/minecraft/client/render/WorldRenderer is public in natrium.mixins.json:Dummy from mod natrium and should be specified in value
+[22:35:04] [main/INFO] (halplibe) Config file name: halplibe.cfg
+[22:35:04] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\halplibe.cfg
+[22:35:04] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.registry.BlockMixin from halplibe.mixins.json into net.minecraft.core.block.Block
+[22:35:04] [main/DEBUG] (FabricLoader/Mixin) Mixing BlockMixin from moonsteel.mixins.json into net.minecraft.core.block.Block
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.BlockMixin from mod halplibe->@Inject::captureHighest(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.BlockMixin from mod halplibe->@Inject::addInfo(Ljava/lang/String;ILnet/minecraft/core/block/material/Material;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.BlockMixin from mod halplibe->@Inject::addInfo(Ljava/lang/String;ILnet/minecraft/core/block/material/Material;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.BlockMixin from mod halplibe->@Inject::addInfo(Ljava/lang/String;ILnet/minecraft/core/block/material/Material;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:BlockMixin from mod moonsteel->@Inject::multiplyHarvest(Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;IIIILnet/minecraft/core/block/entity/TileEntity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.registry.ItemMixin from halplibe.mixins.json into net.minecraft.core.item.Item
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinRarityItem from rarity_lib.mixins.json into net.minecraft.core.item.Item
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemMixin from stardew.mixins.json into net.minecraft.core.item.Item
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.ItemMixin from mod halplibe->@Inject::captureHighest(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemMixin from mod stardew->@Inject::addStickFunctionality(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemMixin from mod stardew->@Inject::addStickFunctionality(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemMixin from mod stardew->@Inject::addStickFunctionality(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing entity.EntityLivingMixin from moonsteel.mixins.json into net.minecraft.core.entity.EntityLiving
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityLivingMixin from mod moonsteel->@Inject::multiplyDrop(Lnet/minecraft/core/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityLivingMixin from mod moonsteel->@Inject::multiplyDrop(Lnet/minecraft/core/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityLivingMixin from mod moonsteel->@Inject::multiplyDrop(Lnet/minecraft/core/entity/Entity;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityMixin from better_with_aquatic.mixins.json into net.minecraft.core.entity.Entity
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityMixin from bonusblocks.mixins.json into net.minecraft.core.entity.Entity
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityMixin from mod better_with_aquatic->@Inject::checkAndHandleWater(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:EntityMixin from mod bonusblocks->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:EntityMixin from mod bonusblocks->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:EntityMixin from mod bonusblocks->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityPlayerMixin from better_with_aquatic.mixins.json into net.minecraft.core.entity.player.EntityPlayer
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing entity.EntityPlayerMixin from moonsteel.mixins.json into net.minecraft.core.entity.player.EntityPlayer
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityPlayerMixin from stardew.mixins.json into net.minecraft.core.entity.player.EntityPlayer
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityPlayerMixin from writingsheets.mixins.json into net.minecraft.core.entity.player.EntityPlayer
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::moveEntityWithHeading(FFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::moveEntityWithHeading(FFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::moveEntityWithHeading(FFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::onLivingUpdate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::onLivingUpdate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::onLivingUpdate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::readAdditionalSaveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::readAdditionalSaveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::readAdditionalSaveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::addAdditionalSaveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::addAdditionalSaveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityPlayerMixin from mod better_with_aquatic->@Inject::addAdditionalSaveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityPlayerMixin from mod stardew->@Inject::boostSpeed(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing StatMixin from dragonfly.mixins.json into net.minecraft.core.achievement.stat.Stat
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.StatMixin from halplibe.mixins.json into net.minecraft.core.achievement.stat.Stat
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) dragonfly.mixins.json:StatMixin from mod dragonfly->@Inject::preventCrash(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.StatMixin from mod halplibe->@Inject::registerStat(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemToolShovelMixin from bonusblocks.mixins.json into net.minecraft.core.item.tool.ItemToolShovel
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:ItemToolShovelMixin from mod bonusblocks->@Inject::addNewPathBlock(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemToolAxeMixin from bonusblocks.mixins.json into net.minecraft.core.item.tool.ItemToolAxe
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemToolHoeMixin from stardew.mixins.json into net.minecraft.core.item.tool.ItemToolHoe
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemToolHoeMixin from mod stardew->@Inject::dropWorms(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemToolHoeMixin from mod stardew->@Inject::dropWorms(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemToolHoeMixin from mod stardew->@Inject::dropWorms(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/entity/player/EntityPlayer;Lnet/minecraft/core/world/World;IIILnet/minecraft/core/util/helper/Side;DDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemFishingRodMixin from stardew.mixins.json into net.minecraft.core.item.ItemFishingRod
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemFishingRodMixin from mod stardew->@Inject::addBaitFunctions(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemFishingRodMixin from mod stardew->@Inject::addBaitFunctions(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ItemFishingRodMixin from mod stardew->@Inject::addBaitFunctions(Lnet/minecraft/core/item/ItemStack;Lnet/minecraft/core/world/World;Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BlockGrassMixin from bonusblocks.mixins.json into net.minecraft.core.block.BlockGrass
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BlockSaplingShrubMixin from bonusblocks.mixins.json into net.minecraft.core.block.BlockSaplingShrub
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BlockSaplingShrubMixin from mod bonusblocks->@Inject::growTree(Lnet/minecraft/core/world/World;IIILjava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BlockSaplingShrubMixin from mod bonusblocks->@Inject::growTree(Lnet/minecraft/core/world/World;IIILjava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BlockSaplingShrubMixin from mod bonusblocks->@Inject::growTree(Lnet/minecraft/core/world/World;IIILjava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BlockSaplingCacaoMixin from bonusblocks.mixins.json into net.minecraft.core.block.BlockSaplingCacao
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BlockSaplingCacaoMixin from mod bonusblocks->@Inject::growTree(Lnet/minecraft/core/world/World;IIILjava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BlockDeadBushMixin from bonusblocks.mixins.json into net.minecraft.core.block.BlockDeadBush
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BlockDeadBushMixin from mod bonusblocks->@Inject::generate(ILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BlockAlgaeMixin from stardew.mixins.json into net.minecraft.core.block.BlockAlgae
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.TileEntityAccessor from halplibe.mixins.json into net.minecraft.core.block.entity.TileEntity
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method callAddMapping(Ljava/lang/Class;Ljava/lang/String;)V to callAddMapping$halplibe_$md$1d2139$0 in halplibe.mixins.json:accessors.TileEntityAccessor from mod halplibe
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityItemMixin from better_with_aquatic.mixins.json into net.minecraft.core.entity.EntityItem
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing entity.EntityItemMixin from moonsteel.mixins.json into net.minecraft.core.entity.EntityItem
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityItemMixin from stardew.mixins.json into net.minecraft.core.entity.EntityItem
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Discarding @Unique public field item in stardew.mixins.json:EntityItemMixin from mod stardew because it already exists in net.minecraft.core.entity.EntityItem. Note that declared FIELD INITIALISERS will NOT be removed!
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:EntityItemMixin from mod better_with_aquatic->@Inject::checkAndHandleWater(ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::constuct1(Lnet/minecraft/core/world/World;DDDLnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::constuct1(Lnet/minecraft/core/world/World;DDDLnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::constuct1(Lnet/minecraft/core/world/World;DDDLnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::saveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::saveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::saveData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::loadData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::loadData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityItemMixin from mod moonsteel->@Inject::loadData(Lcom/mojang/nbt/CompoundTag;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityItemMixin from mod stardew->@Inject::playerTouch(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing TileEntitySeatMixin from color.mixins.json into net.minecraft.core.block.entity.TileEntitySeat
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) color.mixins.json:TileEntitySeatMixin from mod color->@Inject::injectTick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.BlockFireAccessor from halplibe.mixins.json into net.minecraft.core.block.BlockFire
+[22:35:05] [main/INFO] (FabricLoader/Mixin) halplibe.mixins.json:accessors.BlockFireAccessor from mod halplibe->@Invoker[METHOD_PROXY]::callSetBurnRate(III)V should be static as its target is
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BiomeMixin from better_with_aquatic.mixins.json into net.minecraft.core.world.biome.Biome
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:BiomeMixin from mod better_with_aquatic->@Inject::addMobs(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:BiomeMixin from mod better_with_aquatic->@Inject::addMobs(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:BiomeMixin from mod better_with_aquatic->@Inject::addMobs(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BiomeRainforestMixin from bonusblocks.mixins.json into net.minecraft.core.world.biome.BiomeRainforest
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BiomeRainforestMixin from mod bonusblocks->@Inject::getRandomWorldGenForTrees(Ljava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityPathfinderMixin from better_ai.mixins.json into net.minecraft.core.entity.EntityPathfinder
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:EntityPathfinderMixin from mod better_ai->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:EntityPathfinderMixin from mod better_ai->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:EntityPathfinderMixin from mod better_ai->@Inject::tick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing entity.EntityZombieArmoredMixin from moonsteel.mixins.json into net.minecraft.core.entity.monster.EntityArmoredZombie
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityZombieArmoredMixin from mod moonsteel->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityZombieArmoredMixin from mod moonsteel->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityZombieArmoredMixin from mod moonsteel->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:entity.EntityZombieArmoredMixin from mod moonsteel->@Inject::sword(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntitySkeletonMixin from better_ai.mixins.json into net.minecraft.core.entity.monster.EntitySkeleton
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing LivingRendererMixin from simplehealthindicator.mixins.json into net.minecraft.client.render.entity.LivingRenderer
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:LivingRendererMixin from mod simplehealthindicator->@Inject::fixLabel(Lnet/minecraft/core/entity/EntityLiving;Ljava/lang/String;DDDIZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:LivingRendererMixin from mod simplehealthindicator->@Inject::fixLabel(Lnet/minecraft/core/entity/EntityLiving;Ljava/lang/String;DDDIZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:LivingRendererMixin from mod simplehealthindicator->@Inject::fixLabel(Lnet/minecraft/core/entity/EntityLiving;Ljava/lang/String;DDDIZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/INFO] (halplibe) Config file name: {enable_swim=true, starting_item_id=26000, starting_entity_id=600, enable_drowned=true, starting_block_id=3200}
+[22:35:05] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\better_with_aquatic.cfg
+[22:35:05] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\better_with_aquatic.cfg
+[22:35:05] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\better_with_aquatic.cfg
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BiomeSwampMixin from bonusblocks.mixins.json into net.minecraft.core.world.biome.BiomeSwamp
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BiomeSwampMixin from mod bonusblocks->@Inject::getRandomWorldGenForTrees(Ljava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BiomeForestMixin from bonusblocks.mixins.json into net.minecraft.core.world.biome.BiomeForest
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BiomeForestMixin from mod bonusblocks->@Inject::getRandomWorldGenForTrees(Ljava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing BiomeShrublandMixin from bonusblocks.mixins.json into net.minecraft.core.world.biome.BiomeShrubland
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BiomeShrublandMixin from mod bonusblocks->@Inject::getRandomWorldGenForTrees(Ljava/util/Random;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing accessor.ItemToolSwordAccessor from moonsteel.mixins.json into net.minecraft.core.item.tool.ItemToolSword
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityBobberMixin from stardew.mixins.json into net.minecraft.core.entity.EntityBobber
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Discarding @Unique public method func_4042_a in stardew.mixins.json:EntityBobberMixin from mod stardew because it already exists in net.minecraft.core.entity.EntityBobber
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Mixin stardew.mixins.json:EntityBobberMixin from mod stardew has multiple constructors, (Lnet/minecraft/core/world/World;)V was selected
+[22:35:05] [main/WARN] (FabricLoader/Mixin) Mixin stardew.mixins.json:EntityBobberMixin from mod stardew has multiple constructors, (Lnet/minecraft/core/world/World;)V was selected
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityBobberMixin from mod stardew->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityBobberMixin from mod stardew->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:EntityBobberMixin from mod stardew->@Inject::init(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.network.PacketMixin from halplibe.mixins.json into net.minecraft.core.net.packet.Packet
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing accessor.StatListAccessor from dragonfly.mixins.json into net.minecraft.core.achievement.stat.StatList
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.StatListAccessor from halplibe.mixins.json into net.minecraft.core.achievement.stat.StatList
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Renaming @Accessor method getStatMap()Ljava/util/Map; to getStatMap$halplibe_$md$1d2139$1 in halplibe.mixins.json:accessors.StatListAccessor from mod halplibe
+[22:35:05] [main/DEBUG] (FabricLoader/GameProvider) Launch arguments: [--username, Sigvaldr, --session, token:eyJraWQiOiIwNDkxODEiLCJhbGciOiJSUzI1NiJ9.eyJ4dWlkIjoiMjUzMzI3NDkwOTQxODA4NCIsImFnZyI6IkFkdWx0Iiwic3ViIjoiYTYyODEyNmItOGI5Yi00OGYzLTlkODQtYjY1ZmZiN2Y1YTBkIiwiYXV0aCI6IlhCT1giLCJucyI6ImRlZmF1bHQiLCJyb2xlcyI6W10sImlzcyI6ImF1dGhlbnRpY2F0aW9uIiwiZmxhZ3MiOlsibXVsdGlwbGF5ZXIiLCJ0d29mYWN0b3JhdXRoIiwibXNhbWlncmF0aW9uX3N0YWdlNCIsIm9yZGVyc18yMDIyIl0sInByb2ZpbGVzIjp7Im1jIjoiNzEyOWUxZjctNDM3YS00NDNjLWFhNTItMTFjYmQ4MzkwNjM5In0sInBsYXRmb3JtIjoiUENfTEFVTkNIRVIiLCJ5dWlkIjoiOWNiYmUzYTk0ZGNiNGVlNzgwMzQyMzcxYWU3MjEyZDkiLCJwZmQiOlt7InR5cGUiOiJtYyIsImlkIjoiNzEyOWUxZjctNDM3YS00NDNjLWFhNTItMTFjYmQ4MzkwNjM5IiwibmFtZSI6IlNpZ3ZhbGRyIn1dLCJuYmYiOjE3NDQxNDg2ODgsImV4cCI6MTc0NDIzNTA4OCwiaWF0IjoxNzQ0MTQ4Njg4fQ.EzfuwZ2AbnM8vSnC4iqBCRN-s9KoGersmhHvdBXi1pzbGoj3tjagENcOcISp-g8h364OfOaDBfW6Kj8n5LO2PPaKSBgbbOIFuL2_S3disNhAOKtGrIW3ZgJTdy2HcFfe1SKNgjRX6F7SHwJ3PYQa_jmrIl0h79xsZMmCtX-Gqd2dgrWDweG3z1k1aOi9EQfAwgEgZR6xmjTqv9ujDxZlkaIfStfHDce8W8LZ1ICWfca2y7fpKdMKLrpN7M5FMgKKXImr4PKDTLO8Cvofd4uAbcARVNClvICTCeQ1cKG9j7H_GmtXapuMlP687huBUreGtLvxyaUEc4vg55oJoYjohg:7129e1f7437a443caa5211cbd8390639, --gameDir, C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim- Carbon/.minecraft, --assetsDir, C:/Users/Sigvaldr/AppData/Roaming/PrismLauncher/instances/Sigheim- Carbon/.minecraft/resources, --accessToken, FabricMC, --version, Fabric, --versionType, Fabric]
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.registry.MinecraftMixin from halplibe.mixins.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.MinecraftMixin from halplibe.mixins.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.network.MinecraftMixin from halplibe.mixins.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Renaming synthetic method lambda$postStartClient$0(Lturniplabs/halplibe/helper/NetworkHelper$NetworkEntry;)V to md1d2139$halplibe$lambda$postStartClient$0$0 in halplibe.mixins.json:mixins.network.MinecraftMixin from mod halplibe
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing MinecraftAccessor from mixins.modmenu.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Renaming @Invoker method getOS()Lnet/minecraft/core/enums/EnumOS; to getOS$modmenu_$md$1d2139$1 in mixins.modmenu.json:MinecraftAccessor from mod modmenu
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from minimap.mixins.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from natrium.mixins.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing MinecraftMixin from better_with_aquatic.mixins.json into net.minecraft.client.Minecraft
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.MinecraftMixin from mod halplibe->@Inject::postInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.MinecraftMixin from mod halplibe->@Inject::postInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.registry.MinecraftMixin from mod halplibe->@Inject::postInit(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::recipeEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::recipeEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::recipeEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::beforeGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::beforeGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::beforeGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::afterGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::afterGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::afterGameStartEntrypoint(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.MinecraftMixin from mod halplibe->@Inject::printWrongJavaVersionInfo(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.network.MinecraftMixin from mod halplibe->@Inject::postStartClient(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.network.MinecraftMixin from mod halplibe->@Inject::postStartClient(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.network.MinecraftMixin from mod halplibe->@Inject::postStartClient(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:MinecraftMixin from mod better_with_aquatic->@Inject::getMinecraft(Ljava/lang/Class;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.gui.GuiScreenMixin from halplibe.mixins.json into net.minecraft.client.gui.GuiScreen
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.gui.GuiScreenMixin from mod halplibe->@Inject::injectMouseClicked(IIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/client/gui/GuiButton;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.gui.GuiScreenMixin from mod halplibe->@Inject::injectMouseClicked(IIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/client/gui/GuiButton;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.gui.GuiScreenMixin from mod halplibe->@Inject::injectMouseClicked(IIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/client/gui/GuiButton;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing client.EntityPlayerSPMixin from better_with_aquatic.mixins.json into net.minecraft.client.entity.player.EntityPlayerSP
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing EntityPlayerSPMixin from writingsheets.mixins.json into net.minecraft.client.entity.player.EntityPlayerSP
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.EntityPlayerSPMixin from mod better_with_aquatic->@Inject::checkInTile(DDDLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing GuiContainerMixin from stardew.mixins.json into net.minecraft.client.gui.GuiContainer
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:GuiContainerMixin from mod stardew->@Inject::addCanOfWormsShiftClick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:GuiContainerMixin from mod stardew->@Inject::addCanOfWormsShiftClick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:GuiContainerMixin from mod stardew->@Inject::addCanOfWormsShiftClick(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.GuiIngameMenuMixin from halplibe.mixins.json into net.minecraft.client.gui.GuiIngameMenu
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinGuiIngameMenu from mixins.modmenu.json into net.minecraft.client.gui.GuiIngameMenu
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.GuiIngameMenuMixin from mod halplibe->@Inject::buttonPressed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiIngameMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing MixinGuiMainMenu from mixins.modmenu.json into net.minecraft.client.gui.GuiMainMenu
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$drawMenuButton(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinGuiMainMenu from mod modmenu->@Inject::modmenu$onActionPerformed(Lnet/minecraft/client/gui/GuiButton;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.commands.CommandsCoreMixin from halplibe.mixins.json into net.minecraft.core.net.command.Commands
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.commands.CommandsClientMixin from halplibe.mixins.json into net.minecraft.core.net.command.Commands
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.commands.CommandsCoreMixin from mod halplibe->@Inject::addCoreCommands(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.commands.CommandsClientMixin from mod halplibe->@Inject::addClientCommands(Lnet/minecraft/client/Minecraft;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing WorldMixin from better_ai.mixins.json into net.minecraft.core.world.World
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing WorldMixin from moonsteel.mixins.json into net.minecraft.core.world.World
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:WorldMixin from mod better_ai->@Inject::getPathToEntity(Lnet/minecraft/core/entity/Entity;Lnet/minecraft/core/entity/Entity;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:WorldMixin from mod better_ai->@Inject::getEntityPathToXYZ(Lnet/minecraft/core/entity/Entity;IIIFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:WorldMixin from mod moonsteel->@Inject::makeTheStarsFall(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/core/world/chunk/ChunkCoordinate;II)V doesn't use it's CallbackInfo
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:WorldMixin from mod moonsteel->@Inject::makeTheStarsFall(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/core/world/chunk/ChunkCoordinate;II)V has 0 override(s) in child classes
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:WorldMixin from mod moonsteel->@Inject::makeTheStarsFall(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/Iterator;Lnet/minecraft/core/world/chunk/ChunkCoordinate;II)V won't be passed a CallbackInfo as a result
+[22:35:05] [main/DEBUG] (FabricLoader/Mixin) Mixing accessor.RenderBlocksAccessor from dragonfly.mixins.json into net.minecraft.client.render.RenderBlocks
+[22:35:05] [main/INFO] (FabricLoader/Mixin) dragonfly.mixins.json:accessor.RenderBlocksAccessor from mod dragonfly->@Accessor[FIELD_GETTER]::getSIDE_LIGHT_MULTIPLIER()[F should be static as its target is
+[22:35:06] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'main'
+[22:35:06] [main/INFO] (better_ai) ExampleMod initialized.
+[22:35:06] [main/DEBUG] (FabricLoader/Mixin) Mixing NetHandlerMixin from better_with_aquatic.mixins.json into net.minecraft.core.net.handler.NetHandler
+[22:35:06] [main/INFO] (halplibe) Config file name: {towercount=200, starting_item_id=26340, starting_entity_id=634, rarity=10, starting_block_id=6340}
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\betterbattletowers.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\betterbattletowers.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\betterbattletowers.cfg
+[22:35:06] [main/INFO] (betterbattletowers) Better than Battle Towers initialized.
+[22:35:06] [main/INFO] (bonusblocks) BonusBlocks initialized.
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle2.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle3.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle3.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotidle4.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotidle4.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrothurt1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrothurt1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrothurt2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrothurt2.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotdeath1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotdeath1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/color/sound/parrotdeath2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/color/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\color\parrotdeath2.ogg Added to sound directory
+[22:35:06] [main/INFO] (color) World of Color initialized.
+[22:35:06] [main/INFO] (halplibe) HalpLibe initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: ironfurnaces.cfg
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\ironfurnaces.cfg
+[22:35:06] [main/DEBUG] (FabricLoader/Mixin) Mixing mixins.BlockSoundDispatcherMixin from halplibe.mixins.json into net.minecraft.core.sound.BlockSoundDispatcher
+[22:35:06] [main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.BlockSoundDispatcherMixin from mod halplibe->@Inject::cancelValidate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:06] [main/INFO] (ironfurnaces) IronFurnaces mod initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: {starting_item_id=21400, star_spawn_rate=7500, looting_amount=3, starting_block_id=6700, fortune_amount=3, gui_backpack_id=20}
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\moonsteel.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\moonsteel.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\moonsteel.cfg
+[22:35:06] [main/DEBUG] (FabricLoader/Mixin) Mixing accessors.EntityFXAccessor from halplibe.mixins.json into net.minecraft.client.entity.fx.EntityFX
+[22:35:06] [main/DEBUG] (FabricLoader/Mixin) Mixing ItemStackMixin from stardew.mixins.json into net.minecraft.core.item.ItemStack
+[22:35:06] [main/INFO] (moonsteel) Backpacks present: false
+[22:35:06] [main/INFO] (moonsteel) MoonSteel initialized.
+[22:35:06] [main/INFO] (no-food-stack) [no-food-stack] Initialized.
+[22:35:06] [main/INFO] (halplibe) Config file name: {starting_item_id=11000, starting_block_id=10000}
+[22:35:06] [main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\rarity_lib.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\rarity_lib.cfg
+[22:35:06] [main/INFO] (halplibe) Updating config at C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\rarity_lib.cfg
+[22:35:06] [main/INFO] (rarity_lib) Rarity lib initialized.
+[22:35:06] [main/INFO] (simplehealthindicator) Simple Health Indicator initialized.
+[22:35:06] [main/INFO] (halplibe) File source: /assets/stardew/sound/bee.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/stardew/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\stardew\bee.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/stardew/streaming/axolotl.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\streaming
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\streaming\axolotl.ogg Added to sound directory
+[22:35:06] [main/INFO] (stardew) Stardew Farming initialized.
+[22:35:06] [main/INFO] (terrain-api) TerrainMain initialized.
+[22:35:06] [main/INFO] (writingsheets) WritingSheetsMod initialized.
+[22:35:06] [main/DEBUG] (FabricLoader/Entrypoint) Iterating over entrypoint 'client'
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golem1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golem1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golem3.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golem3.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemawaken.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemawaken.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemdeath.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemdeath.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemhurt2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemhurt2.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemhurt3.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemhurt3.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemspecial1.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemspecial1.ogg Added to sound directory
+[22:35:06] [main/INFO] (halplibe) File source: /assets/betterbattletowers/sound/golemspecial2.ogg
+[22:35:06] [main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/betterbattletowers/
+[22:35:06] [main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\betterbattletowers\golemspecial2.ogg Added to sound directory
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.I18nMixin from halplibe.mixins.json into net.minecraft.core.lang.I18n
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.I18nMixin from mod halplibe->@Inject::addHalplibeModLangFiles(Ljava/lang/String;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.I18nMixin from mod halplibe->@Inject::addHalplibeModLangFiles(Ljava/lang/String;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.I18nMixin from mod halplibe->@Inject::addHalplibeModLangFiles(Ljava/lang/String;ZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.LanguageAccessor from halplibe.mixins.json into net.minecraft.core.lang.Language
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing LanguageAccessor from mixins.modmenu.json into net.minecraft.core.lang.Language
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Unexpected: Registered method getEntries()Ljava/util/Properties; in net.minecraft.core.lang.Language was not merged
+[22:35:06] [Client-Main/DEBUG] (halplibe) Current lang: en_US
+[22:35:06] [Client-Main/DEBUG] (halplibe) better_ai contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) better_with_aquatic contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/better_with_aquatic/it_it.lang, /lang/better_with_aquatic/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) betterbattletowers contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/betterbattletowers/ja_JP.lang, /lang/betterbattletowers/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) bonusblocks contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/bonusblocks/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) color contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/color/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) dragonfly contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/dragonfly/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) fabricloader contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) halplibe contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/halplibe/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) ironfurnaces contains 400 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/ironfurnaces/zh_CN.lang, /lang/ironfurnaces/pt_PT.lang, /lang/ironfurnaces/pt_BR.lang, /lang/ironfurnaces/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) java contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) minecraft contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) minimap contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) mixinextras contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) modmenu contains 1100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/modmenu/bg_BG.lang, /lang/modmenu/de_DE.lang, /lang/modmenu/en_US.lang, /lang/modmenu/et_EE.lang, /lang/modmenu/fi_FI.lang, /lang/modmenu/fr_FR.lang, /lang/modmenu/ja_JP.lang, /lang/modmenu/pt_BR.lang, /lang/modmenu/ru_RU.lang, /lang/modmenu/zh_CN.lang, /lang/modmenu/zh_TW.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) moonsteel contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/moonsteel/ru_RU.lang, /lang/moonsteel/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) natrium contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) nofoodstack contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) org_apache_commons_commons-lang3 contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) rarity_lib contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/rarity_lib/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) simplehealthindicator contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/simplehealthindicator/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) stardew contains 133 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/stardew/en_US]
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/stardew/en_US/tile.lang, /lang/stardew/en_US/item.lang, /lang/stardew/en_US/achievements.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/stardew/en_US/tile.lang, /lang/stardew/en_US/item.lang, /lang/stardew/en_US/achievements.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) terrain-api contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) writingsheets contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/writingsheets/ru_RU.lang, /lang/writingsheets/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet baguchan.better_with_aquatic.packet.SwimPacket with id 36
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketOpenGui with id 37
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketOpenItemGui with id 43
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketOpenBlockGui with id 44
+[22:35:06] [Client-Main/INFO] (halplibe) Successfully registered packet turniplabs.halplibe.helper.gui.packet.PacketGuiButtonClick with id 45
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_idle.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_idle.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_death.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_death.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_hurt.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_hurt.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/better_with_aquatic/sound/mob/drowned/drowned_hurt_extra.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/better_with_aquatic/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\better_with_aquatic\mob\drowned\drowned_hurt_extra.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/bonusblocks/sound/chimes.ogg
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/bonusblocks/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\bonusblocks\chimes.ogg Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) File source: /assets/moonsteel/sound/starspawn.wav
+[22:35:06] [Client-Main/INFO] (halplibe) File destination: C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound/moonsteel/
+[22:35:06] [Client-Main/INFO] (halplibe) C:\Users\Sigvaldr\AppData\Roaming\.minecraft-bta\resources\mod\sound\moonsteel\starspawn.wav Added to sound directory
+[22:35:06] [Client-Main/INFO] (halplibe) Config file name: bonusblocks.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\bonusblocks.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file name: color.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\color.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file name: stardew.cfg
+[22:35:06] [Client-Main/INFO] (halplibe) Config file path: C:\Users\Sigvaldr\AppData\Roaming\PrismLauncher\instances\Sigheim- Carbon\.minecraft\config\stardew.cfg
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing GameSettingsMixin from simplehealthindicator.mixins.json into net.minecraft.client.option.GameSettings
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from minimap.mixins.json into net.minecraft.client.option.GameSettings
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::offsetDisplayValue(Lnet/minecraft/client/option/Option;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::addOptions(Lnet/minecraft/client/Minecraft;Ljava/io/File;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::addOptions(Lnet/minecraft/client/Minecraft;Ljava/io/File;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::addOptions(Lnet/minecraft/client/Minecraft;Ljava/io/File;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::changeText(Lnet/minecraft/client/option/Option;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::changeText(Lnet/minecraft/client/option/Option;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:GameSettingsMixin from mod simplehealthindicator->@Inject::changeText(Lnet/minecraft/client/option/Option;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:06] [Client-Main/DEBUG] (halplibe) Current lang: en_US
+[22:35:06] [Client-Main/DEBUG] (halplibe) better_ai contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) better_with_aquatic contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/better_with_aquatic/it_it.lang, /lang/better_with_aquatic/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) betterbattletowers contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/betterbattletowers/ja_JP.lang, /lang/betterbattletowers/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) bonusblocks contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/bonusblocks/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) color contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/color/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) dragonfly contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/dragonfly/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) fabricloader contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) halplibe contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/halplibe/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) ironfurnaces contains 400 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/ironfurnaces/zh_CN.lang, /lang/ironfurnaces/pt_PT.lang, /lang/ironfurnaces/pt_BR.lang, /lang/ironfurnaces/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) java contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) minecraft contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) minimap contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) mixinextras contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) modmenu contains 1100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/modmenu/bg_BG.lang, /lang/modmenu/de_DE.lang, /lang/modmenu/en_US.lang, /lang/modmenu/et_EE.lang, /lang/modmenu/fi_FI.lang, /lang/modmenu/fr_FR.lang, /lang/modmenu/ja_JP.lang, /lang/modmenu/pt_BR.lang, /lang/modmenu/ru_RU.lang, /lang/modmenu/zh_CN.lang, /lang/modmenu/zh_TW.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) moonsteel contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/moonsteel/ru_RU.lang, /lang/moonsteel/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) natrium contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) nofoodstack contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) org_apache_commons_commons-lang3 contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) rarity_lib contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/rarity_lib/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) simplehealthindicator contains 100 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/simplehealthindicator/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) stardew contains 133 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/stardew/en_US]
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/stardew/en_US/tile.lang, /lang/stardew/en_US/item.lang, /lang/stardew/en_US/achievements.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/stardew/en_US/tile.lang, /lang/stardew/en_US/item.lang, /lang/stardew/en_US/achievements.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) terrain-api contains 000 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) writingsheets contains 200 language files.
+[22:35:06] [Client-Main/DEBUG] (halplibe) [/lang/writingsheets/ru_RU.lang, /lang/writingsheets/en_US.lang]
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (halplibe) []
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing MixinTexturePacks from mixins.modmenu.json into net.minecraft.client.render.texturepack.TexturePack
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) mixins.modmenu.json:MixinTexturePacks from mod modmenu->@Inject::modmenu$onGetResource(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing RenderEngineMixin from dragonfly.mixins.json into net.minecraft.client.render.RenderEngine
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from minimap.mixins.json into net.minecraft.client.render.RenderEngine
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) dragonfly.mixins.json:RenderEngineMixin from mod dragonfly->@Inject::refreshModels(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) dragonfly.mixins.json:RenderEngineMixin from mod dragonfly->@Inject::refreshModels(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) dragonfly.mixins.json:RenderEngineMixin from mod dragonfly->@Inject::refreshModels(Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing BiomeProviderOverworldMixin from bonusblocks.mixins.json into net.minecraft.core.world.biome.provider.BiomeProviderOverworld
+[22:35:06] [Client-Main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:BiomeProviderOverworldMixin from mod bonusblocks->@Inject::injectAfterRainforest(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing WorldRendererMixin from simplehealthindicator.mixins.json into net.minecraft.client.render.WorldRenderer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from minimap.mixins.json into net.minecraft.client.render.WorldRenderer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from natrium.mixins.json into net.minecraft.client.render.WorldRenderer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:WorldRendererMixin from mod simplehealthindicator->@Inject::renderInject(FJLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:WorldRendererMixin from mod simplehealthindicator->@Inject::renderInject(FJLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) simplehealthindicator.mixins.json:WorldRendererMixin from mod simplehealthindicator->@Inject::renderInject(FJLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.models.BlockModelDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.block.model.BlockModelDispatcher
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.BlockModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.BlockModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.BlockModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.models.ItemModelDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.item.model.ItemModelDispatcher
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.ItemModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.ItemModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.ItemModelDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.RenderManagerAccessor from halplibe.mixins.json into net.minecraft.client.render.EntityRenderDispatcher
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.models.EntityRenderDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.EntityRenderDispatcher
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.EntityRenderDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.EntityRenderDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.EntityRenderDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing ArmorZombieRendererMixin from moonsteel.mixins.json into net.minecraft.client.render.entity.ArmoredZombieRenderer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:ArmorZombieRendererMixin from mod moonsteel->@Inject::starZombie(Lnet/minecraft/core/entity/monster/EntityArmoredZombie;IFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:ArmorZombieRendererMixin from mod moonsteel->@Inject::starZombie(Lnet/minecraft/core/entity/monster/EntityArmoredZombie;IFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:ArmorZombieRendererMixin from mod moonsteel->@Inject::starZombie(Lnet/minecraft/core/entity/monster/EntityArmoredZombie;IFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V won't be passed a CallbackInfoReturnable as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing client.PlayerRendererMixin from better_with_aquatic.mixins.json into net.minecraft.client.render.entity.PlayerRenderer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing PlayerRendererMixin from stardew.mixins.json into net.minecraft.client.render.entity.PlayerRenderer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerRendererMixin from mod better_with_aquatic->@Inject::renderPlayer(Lnet/minecraft/core/entity/player/EntityPlayer;DDDFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerRendererMixin from mod better_with_aquatic->@Inject::renderPlayer(Lnet/minecraft/core/entity/player/EntityPlayer;DDDFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerRendererMixin from mod better_with_aquatic->@Inject::renderPlayer(Lnet/minecraft/core/entity/player/EntityPlayer;DDDFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerRendererMixin from mod better_with_aquatic->@Inject::preRenderCallback(Lnet/minecraft/core/entity/player/EntityPlayer;FFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerRendererMixin from mod better_with_aquatic->@Inject::preRenderCallback(Lnet/minecraft/core/entity/player/EntityPlayer;FFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerRendererMixin from mod better_with_aquatic->@Inject::preRenderCallback(Lnet/minecraft/core/entity/player/EntityPlayer;FFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:PlayerRendererMixin from mod stardew->@Inject::addCanOfWormsRender(Lnet/minecraft/core/entity/player/EntityPlayer;IFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing client.ModelPlayerMixin from better_with_aquatic.mixins.json into net.minecraft.client.render.model.ModelPlayer
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.ModelPlayerMixin from mod better_with_aquatic->@Inject::setRotationAngles(FFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.ModelPlayerMixin from mod better_with_aquatic->@Inject::setRotationAngles(FFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.ModelPlayerMixin from mod better_with_aquatic->@Inject::setRotationAngles(FFFFFFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.TileEntityRendererAccessor from halplibe.mixins.json into net.minecraft.client.render.TileEntityRenderDispatcher
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.models.TileEntityRendererDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.TileEntityRenderDispatcher
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.TileEntityRendererDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.TileEntityRendererDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.TileEntityRendererDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:11] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.EntityFireflyFXAccessor from halplibe.mixins.json into net.minecraft.client.entity.fx.EntityFireflyFX
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing RenderGrobalMixin from better_ai.mixins.json into net.minecraft.client.render.RenderGlobal
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from minimap.mixins.json into net.minecraft.client.render.RenderGlobal
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from natrium.mixins.json into net.minecraft.client.render.RenderGlobal
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:RenderGrobalMixin from mod better_ai->@Inject::drawDebugEntityOutlines(Lnet/minecraft/client/render/camera/ICamera;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:RenderGrobalMixin from mod better_ai->@Inject::drawDebugEntityOutlines(Lnet/minecraft/client/render/camera/ICamera;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) better_ai.mixins.json:RenderGrobalMixin from mod better_ai->@Inject::drawDebugEntityOutlines(Lnet/minecraft/client/render/camera/ICamera;FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing GuiIngameMixin from bonusblocks.mixins.json into net.minecraft.client.gui.GuiIngame
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:GuiIngameMixin from mod bonusblocks->@Inject::renderGameOverlay(FZIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:GuiIngameMixin from mod bonusblocks->@Inject::renderGameOverlay(FZIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:12] [Client-Main/DEBUG] (FabricLoader/Mixin) bonusblocks.mixins.json:GuiIngameMixin from mod bonusblocks->@Inject::renderGameOverlay(FZIILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeOverworldMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeOverworld
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeOverworldMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeNetherMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeNether
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeNetherMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeParadiseMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeParadise
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeParadiseMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeFloatingMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeOverworldFloating
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeFloatingMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeOverworldRetroMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeOverworldRetro
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeOverworldRetroMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeOverworldHellMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeOverworldHell
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeOverworldHellMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing worldtypes.WorldTypeOverworldWoodsMixin from terrainapi.mixins.json into net.minecraft.core.world.type.WorldTypeOverworldWoods
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) terrainapi.mixins.json:worldtypes.WorldTypeOverworldWoodsMixin from mod terrain-api->@Inject::customChunkGenerator(Lnet/minecraft/core/world/World;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.RecipeSymbolAccessor from halplibe.mixins.json into net.minecraft.core.data.registry.recipe.RecipeSymbol
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.WeightedRandomBagAccessor from halplibe.mixins.json into net.minecraft.core.WeightedRandomBag
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing accessors.WeightedRandomBagEntryAccessor from halplibe.mixins.json into net.minecraft.core.WeightedRandomBag$Entry
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing GuiButtonAccessor from mixins.modmenu.json into net.minecraft.client.gui.GuiButton
+[22:35:13] [Client-Main/INFO] (dragonfly) DragonFly initialized.
+[22:35:13] [Client-Main/WARN] (terrain-api) bonusblocks has changed block tile.moss.stone to generate 0 blocks with 0 chances and a range of 0.000000
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.models.BlockColorDispatcherMixin from halplibe.mixins.json into net.minecraft.client.render.block.color.BlockColorDispatcher
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.models.BlockColorDispatcherMixin from mod halplibe->@Inject::addQueuedModels(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing FloatOptionComponentMixin from simplehealthindicator.mixins.json into net.minecraft.client.gui.options.components.FloatOptionComponent
+[22:35:13] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing TextFieldEditorAccessor from mixins.modmenu.json into net.minecraft.client.gui.text.TextFieldEditor
+[22:35:14] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing client.ChunkRendererMixin from better_with_aquatic.mixins.json into net.minecraft.client.render.ChunkRenderer
+[22:35:14] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing Dummy from natrium.mixins.json into net.minecraft.client.render.ChunkRenderer
+[22:35:14] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.ChunkRendererMixin from mod better_with_aquatic->@Inject::updateRenderer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IIIIIILjava/util/Set;ILnet/minecraft/core/world/chunk/ChunkCache;Lnet/minecraft/client/render/RenderBlocks;IZZZIIIILnet/minecraft/core/block/Block;)V doesn't use it's CallbackInfo
+[22:35:14] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.ChunkRendererMixin from mod better_with_aquatic->@Inject::updateRenderer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IIIIIILjava/util/Set;ILnet/minecraft/core/world/chunk/ChunkCache;Lnet/minecraft/client/render/RenderBlocks;IZZZIIIILnet/minecraft/core/block/Block;)V has 0 override(s) in child classes
+[22:35:14] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.ChunkRendererMixin from mod better_with_aquatic->@Inject::updateRenderer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;IIIIIILjava/util/Set;ILnet/minecraft/core/world/chunk/ChunkCache;Lnet/minecraft/client/render/RenderBlocks;IZZZIIIILnet/minecraft/core/block/Block;)V won't be passed a CallbackInfo as a result
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) Mixing mixins.NetClientHandlerMixin from halplibe.mixins.json into net.minecraft.client.net.handler.NetClientHandler
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) Mixing mixins.version.NetClientHandlerMixin from halplibe.mixins.json into net.minecraft.client.net.handler.NetClientHandler
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) Mixing NetClientHandlerMixin from moonsteel.mixins.json into net.minecraft.client.net.handler.NetClientHandler
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.NetClientHandlerMixin from mod halplibe->@Inject::handleLogin(Lnet/minecraft/core/net/packet/Packet1Login;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.NetClientHandlerMixin from mod halplibe->@Inject::handleLogin(Lnet/minecraft/core/net/packet/Packet1Login;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.NetClientHandlerMixin from mod halplibe->@Inject::handleLogin(Lnet/minecraft/core/net/packet/Packet1Login;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.version.NetClientHandlerMixin from mod halplibe->@Inject::resetServerModlist(Lnet/minecraft/core/net/packet/Packet2Handshake;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.version.NetClientHandlerMixin from mod halplibe->@Inject::resetServerModlist(Lnet/minecraft/core/net/packet/Packet2Handshake;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.version.NetClientHandlerMixin from mod halplibe->@Inject::resetServerModlist(Lnet/minecraft/core/net/packet/Packet2Handshake;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.version.NetClientHandlerMixin from mod halplibe->@Inject::halplibe$handleModlistPacket(Lnet/minecraft/core/net/packet/Packet250CustomPayload;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:NetClientHandlerMixin from mod moonsteel->@Inject::inject(Lnet/minecraft/core/net/packet/Packet100OpenWindow;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:NetClientHandlerMixin from mod moonsteel->@Inject::inject(Lnet/minecraft/core/net/packet/Packet100OpenWindow;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:35] [Thread-14/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:NetClientHandlerMixin from mod moonsteel->@Inject::inject(Lnet/minecraft/core/net/packet/Packet100OpenWindow;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:35] [Client-Main/INFO] (halplibe) true
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing client.EntityClientPlayerMPMixin from better_with_aquatic.mixins.json into net.minecraft.client.entity.player.EntityClientPlayerMP
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.EntityClientPlayerMPMixin from halplibe.mixins.json into net.minecraft.client.entity.player.EntityClientPlayerMP
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.EntityClientPlayerMPMixin from mod better_with_aquatic->@Inject::func_4056_N(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.EntityClientPlayerMPMixin from mod better_with_aquatic->@Inject::func_4056_N(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.EntityClientPlayerMPMixin from mod better_with_aquatic->@Inject::func_4056_N(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.EntityClientPlayerMPMixin from mod halplibe->@Inject::sendChatMessage(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V does use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing ContainerPlayerMixin from stardew.mixins.json into net.minecraft.core.player.inventory.ContainerPlayer
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ContainerPlayerMixin from mod stardew->@Inject::setInv(Lnet/minecraft/core/player/inventory/IInventory;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ContainerPlayerMixin from mod stardew->@Inject::setInv(Lnet/minecraft/core/player/inventory/IInventory;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:ContainerPlayerMixin from mod stardew->@Inject::setInv(Lnet/minecraft/core/player/inventory/IInventory;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing mixins.ContainerPlayerCreativeMixin from halplibe.mixins.json into net.minecraft.core.player.inventory.ContainerPlayerCreative
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) halplibe.mixins.json:mixins.ContainerPlayerCreativeMixin from mod halplibe->@Inject::test(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing SlotCraftingMixin from stardew.mixins.json into net.minecraft.core.player.inventory.slot.SlotCrafting
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:SlotCraftingMixin from mod stardew->@Inject::addCraftingAchievements(Lnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:SlotCraftingMixin from mod stardew->@Inject::addCraftingAchievements(Lnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:SlotCraftingMixin from mod stardew->@Inject::addCraftingAchievements(Lnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing SlotArmorMixin from stardew.mixins.json into net.minecraft.core.player.inventory.slot.SlotArmor
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) stardew.mixins.json:SlotArmorMixin from mod stardew->@Inject::addEquipableCanOfWorms(Lnet/minecraft/core/item/ItemStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing client.PlayerInputMixin from better_with_aquatic.mixins.json into net.minecraft.client.input.PlayerInput
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerInputMixin from mod better_with_aquatic->@Inject::tickHead(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerInputMixin from mod better_with_aquatic->@Inject::tickHead(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerInputMixin from mod better_with_aquatic->@Inject::tickHead(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerInputMixin from mod better_with_aquatic->@Inject::tick(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerInputMixin from mod better_with_aquatic->@Inject::tick(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) better_with_aquatic.mixins.json:client.PlayerInputMixin from mod better_with_aquatic->@Inject::tick(Lnet/minecraft/core/entity/player/EntityPlayer;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing ChunkProviderStaticMixin from betterbattletowers.mixins.json into net.minecraft.client.world.chunk.provider.ChunkProviderStatic
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing ChunkProviderStaticMixin from moonsteel.mixins.json into net.minecraft.client.world.chunk.provider.ChunkProviderStatic
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) betterbattletowers.mixins.json:ChunkProviderStaticMixin from mod betterbattletowers->@Inject::populate(Lnet/minecraft/core/world/chunk/provider/IChunkProvider;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) betterbattletowers.mixins.json:ChunkProviderStaticMixin from mod betterbattletowers->@Inject::populate(Lnet/minecraft/core/world/chunk/provider/IChunkProvider;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) betterbattletowers.mixins.json:ChunkProviderStaticMixin from mod betterbattletowers->@Inject::populate(Lnet/minecraft/core/world/chunk/provider/IChunkProvider;IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) moonsteel.mixins.json:ChunkProviderStaticMixin from mod moonsteel->@Inject::overrideChunk(IILorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) Mixing MobPageMixin from betterbattletowers.mixins.json into net.minecraft.client.gui.guidebook.mobs.MobPage
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) betterbattletowers.mixins.json:MobPageMixin from mod betterbattletowers->@Inject::offset(IIIIFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) betterbattletowers.mixins.json:MobPageMixin from mod betterbattletowers->@Inject::offset(IIIIFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[22:35:36] [Client-Main/DEBUG] (FabricLoader/Mixin) betterbattletowers.mixins.json:MobPageMixin from mod betterbattletowers->@Inject::offset(IIIIFLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result

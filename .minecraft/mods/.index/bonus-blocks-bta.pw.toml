@@ -1,0 +1,16 @@
+filename = 'bonusblocks-3.1.0-7.2.jar'
+name = 'Bonus Blocks-BTA'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1575822584515b58fcb69a8e3d2687bb4e5f37e9f1de57c2305be5cf0b938b84237de5c9acc889829f6f7d1850920e0ccd583f40976ded85a7ea2ac823e89ca9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hbiTGUMu/versions/5l8dcIZi/bonusblocks-3.1.0-7.2.jar'
+
+[update.modrinth]
+mod-id = 'hbiTGUMu'
+version = '5l8dcIZi'

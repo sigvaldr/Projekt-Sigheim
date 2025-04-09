@@ -1,0 +1,16 @@
+filename = 'better_with_aquatic-4.4.0-7.2.jar'
+name = 'BetterWithAquatic-BTA'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ 'b1.7.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '73ac95844113fb3eec6edd5affc2736d066b1c45a4761c9a8d59b0f6b311fea3be337686772b6dca889298aa6908686162529efe5da116ac8b7ea0821e5fd4b1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/t10q24Er/versions/YdX3dHLa/better_with_aquatic-4.4.0-7.2.jar'
+
+[update.modrinth]
+mod-id = 't10q24Er'
+version = 'YdX3dHLa'
